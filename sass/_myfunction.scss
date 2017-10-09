@@ -1,0 +1,7 @@
+@for $i from 1 through 4 {
+  .b-ulist__link_footer-#{$i} { background: url(../img/social-icons.png) (-40px * $i) -2px; }
+}
+
+@for $i from 1 through 4 {
+  .b-ulist__link_footer-#{$i}:hover { background: url(../img/social-icons.png)  (-40px * $i) -42px; }
+}
